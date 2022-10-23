@@ -1,0 +1,25 @@
+.success {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  font-size: 30px;
+  font-family: ariel;
+}
+
+.error {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  font-size: 30px;
+  font-family: ariel;
+}
+
+.submit {
+  height: 80px;
+  width: 80px;
+  font-family: ariel;
+  background-color: antiquewhite;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

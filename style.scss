@@ -1,0 +1,25 @@
+@mixin divs($colory: red) {
+  height: 100px;
+  width: 100px;
+  background-color: $colory;
+  font-size: 30px;
+  font-family: ariel;
+}
+
+.success {
+  @include divs($colory: green);
+}
+.error {
+  @include divs();
+}
+
+@mixin inputnew {
+  height: 80px;
+  width: 80px;
+  font-family: ariel;
+  background-color: antiquewhite;
+  color: black;
+}
+.submit {
+  @include inputnew();
+}
